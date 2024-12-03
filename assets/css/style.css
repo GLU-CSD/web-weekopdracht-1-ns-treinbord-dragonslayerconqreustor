@@ -1,5 +1,6 @@
 #container{
     width: 936px;
+    opacity:0,5 ;
     display: flex;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,3 +29,31 @@
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
 }
+
+body{
+    background-image: url(/assets/img/web_20190614-084245_SV7704-1-e1620722339187.webp) ;
+background-repeat: no-repeat;
+background-size: 1700px;
+}
+
+
+
+@font-face {
+    font-family: 'FTB.ttf';
+    src: url('FTB.ttf') format('truetype');
+    font-size: 40px;
+    color: chocolate;
+ }
+ 
+ body {
+    font-family: 'FTB.ttf', sans-serif;
+   font-size: 40px;
+    color: chocolate;
+ }
+
+ width: 568px;
+ height: 339px;
+ background-color: rgb(0, 0, 106);
+ padding: 35px;
+ box-sizing: border-box;
+ border: 2px solid #000;

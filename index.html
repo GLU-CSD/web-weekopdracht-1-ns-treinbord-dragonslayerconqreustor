@@ -5,26 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekopdracht - NS-Treinbord</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <script src="assets/css/clock.js"></script>
 </head>
 <body>
-    
+  
     <div id="container">
         <div id="left">
+            <div id="klok">
+                <div id="wijzer-uur"></div>
+                <div id="wijzer-min"></div>
+                <div id="wijzer-sec">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div id="minuten"></div>
+                <div id="logo"></div>
+              </div>
+    
+            
             <!-- hier komt de klok -->
         </div>
         <div id="middle">
-            <div>1 minuut
+        
+            <div class=witevlak>
+
+               
+           
+                <div id="tijdtotaankomst">
+          09:40
+            <div id="vertraginstijd">
+                +15
             </div>
-            <div>Heerlen
             </div>
-            <div> Intercity </div>
+           
+
+            <div id="treinen">
+                <div id=treintype >
+                    Intercity
+                </div>
+                </div>
+                <img class="nslogo" src="\assets\img\ns_logo.png" alt="">
+<div id="stad">
+            <div>Den haag</div>
+     </div>
+     <div id="tussenstops">
+        via Utrecht en Gouda
+    </div>
+     
+      <img class="ponmlk" src="\assets\img\Screenshot_2024-12-04_105529-removebg-preview.png" alt="">
+    </div>
+      <div class=blauwevlak>
+        <div id="volgendetrein">
+        Hierna/next: 09:58 IC Rotterdam 
+        </div>
+      </div>
             <!-- Hier komt de reizigers info -->
         </div>
+        
         <div id="right">
             
+                
+            <div class=witevlakrechts>
+             
+                <div class=blauwevlakrechts></div>
+            </div>
+            <div id="spoortekst">
+                spoor
+                                    </div>
+                                    
+                                    <div id="spoornummer">
+                                        6
+                                    
+                                    </div>
+            </div>
             <!-- hier komt het spoor nummer -->
         </div>
-    </div>
+        </div>
 </body>
 </html>
